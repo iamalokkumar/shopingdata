@@ -1,0 +1,31 @@
+
+
+
+#cart{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+}
+.div{
+    border: 2px solid black;
+    border-radius: 6px;
+    background-color: pink;
+    color: brown;
+}
+.p2{
+    margin-left: 90px;
+}
+.delete{
+    border-radius: 6px;
+    margin-left: 90px;
+    margin-bottom: 4px;
+    background-color: blue;
+    color:white
+}
+img{
+    width: 100%;
+}
+p{
+    margin-left: 10px;
+}
